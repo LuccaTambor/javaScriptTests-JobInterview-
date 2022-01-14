@@ -1,0 +1,54 @@
+body {
+    background: rgb(179, 179, 159);
+    font-family: 'Cinzel Decorative';
+}
+
+#world {
+    text-align: center;
+    margin: 80px auto;
+    width: 280px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(197, 50, 50);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+table {
+    background-color: whitesmoke;
+}
+
+td {
+    border: 2px solid darkgray;
+    width: 20px;
+    height: 20px;
+}
+
+td.dead {
+    background-color: transparent;
+}
+td.alive {
+    background-color:#912727;
+}
+
+#buttons {
+    text-align: center;
+    
+}
+
+.button {
+    background-color: #912727; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
