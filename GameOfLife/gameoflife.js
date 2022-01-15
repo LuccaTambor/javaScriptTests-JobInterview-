@@ -48,12 +48,13 @@ function createWorld() {
 }
 
 // Changing the cell when the user clicks on it
-function cellClick() {
+function cellClick(cell) {
     let loc = this.id.split("_");
-    let row = Number(loc[0]);
-    let col = Number(loc[1]);
+    let row = parseInt(loc[0]);
+    let col = parseInt(loc[1]);
     // Toggle cell alive or dead
-    if (this.className==='alive'){
+    console.log(this);
+    if ([...this.classList].includes('alive')){
         this.setAttribute('class', 'dead');
         currGen[row][col] = 0;
     }
