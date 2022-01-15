@@ -4,9 +4,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Split Bill Calculator</title>
     <link rel="stylesheet" href='style.css'>
-    <script src="gameoflife.js"></script>
+    <script src="billSpliter.js"></script>
 </head>
 <body>
-    
+    <h1> DIVISOR DE CONTAS </h1>
+
+    <div class="container">
+        <h2> Quantos clientes no grupo? </h2>
+
+        <input value="-" type="button" onclick="change('d')" class="btn-count">
+        <input type="number" min="2" max="40" step="1" name="p" value="3" id="count" class="form-num">
+        <input value="+" type="button" onclick="change('u')" class="btn-count">
+
+        </br>
+        </br>
+        <input value="Começar!" type="button" id="btn-start" class="btn-count" onclick="createCalc()" >
+    </div>
+
+    <div id="calcGrid">
+
+    </div>
 </body>
 </html>
