@@ -53,11 +53,17 @@ h2 {
 }
 
 .btn-count:hover {
+    text-align: center;
     background-color: rgb(30, 199, 120);
 }
 
+.btn-count:disabled {
+    background-color: rgb(75, 87, 81);
+}
+
+
 .form-num { 
-    border: none;
+
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;

@@ -25,7 +25,7 @@ function createCalc() {
 
         let personTitle = document.createElement('input');
         personTitle.type = 'text';
-        personTitle.className = "form-name";
+        personTitle.className = "form-num";
         personTitle.placeholder = 'Nome do cliente';
         person.appendChild(personTitle);
 
@@ -37,6 +37,7 @@ function createCalc() {
         let addItemBtn = document.createElement('button');
         addItemBtn.innerHTML = 'Novo Item';
         addItemBtn.setAttribute('id', 'btn_person_' + i);
+        addItemBtn.setAttribute('class', 'btn-count');
     
         person.appendChild(addItemBtn);
         addItemBtn.addEventListener('click', function() { createNewItem(itemsDiv)});
