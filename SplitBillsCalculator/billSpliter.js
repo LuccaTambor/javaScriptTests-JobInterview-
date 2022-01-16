@@ -65,8 +65,6 @@ function createCalc() {
 
         person.appendChild(finalValue);
 
-        //comentario so pra teste
-
         grid.appendChild(person);
     }
 
