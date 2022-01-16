@@ -71,3 +71,11 @@ h2 {
     display: inline-block;
     font-size: 16px;
 }
+
+.final_value {
+    font-family: Roboto;
+    text-align: center;
+    color: rgb(89, 150, 207);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
